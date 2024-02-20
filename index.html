@@ -8,15 +8,12 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
+<header>
+    <h1>Tiburon Blanco</h1>
+</header>
 <body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1"><h1>Tiburon Blanco</h1></span>
-        </div>
-      </nav>
-
     <div class="container">
+        <div id="circle"></div>
         <div class="descripcion">
             <h3>Descripción de la pagina</h3>
             <p>La finalidad de esta apgina web es para demostrar mis habilidades aprendidas en el primer computo de Programación Computacional IV
@@ -27,37 +24,37 @@
             <button id="button1">Pregunta 1</button>
             <button id="button2">Pregunta 2</button>
             <button id="button3">Pregunta 3</button>
-            <button id="button4">Pregunta 4</button>
+            <button id="button4">Pokemon Favorito</button>
         </div>
 
         <div class="contenido">
             <h1>Carcharodon carcharias</h1>
-            <img id="sharkImg" src="./images/shark.jpg" alt="Gran tiburon blanco" height="300" width="500">
+                <img class="sharkImg1" src="./images/shark.jpg" alt="Gran tiburon blanco" height="300" width="500">
+                <p>El gran tiburón blanco (Carcharodon carcharias) o jaquetón es una especie de pez cartilaginoso lamniforme
+                    de la familia Lamnidae (escualo). Vive en las aguas cálidas y templadas de casi todos los océanos.<br>
+                <br>En 1758 Carlos Linneo dio al tiburón blanco su primer nombre científico, Squalus carcharias. Andrew Smith
+                    le dio el nombre genérico Carcharodon en 1833 y en 1873 el nombre genérico fue identificado con el nombre específico de Linnaeus y el nombre
+                    científico actual, Carcharodon carcharias. Carcharodon viene de las palabras griegas καρχαρίας, karcharías, que significa <strong>"agudo"</strong>
+                    o <strong>"dentado"</strong> y οδους, odous, que significa <strong>"diente"</strong>. El tiburón blanco pertenece a la clase Chondrichthyes. Esta
+                    clase de peces representan uno de los linajes de vertebrados más antiguos, que surgieron hace más de cuatrocientos millones de años.</p>
+    
+                <h3>Ascendencia</h3>
+                <p>El gran tiburón blanco existe desde el Mioceno. Los fósiles más antiguos conocidos del tiburón blanco
+                    datan de hace unos dieciséis millones de años aproximadamente.
+                    Sin embargo la filogenia del gran tiburón blanco sigue siendo objeto de debate. La hipótesis original de
+                    los orígenes del tiburón blanco es que comparte un ancestro
+                    común con un tiburón prehistórico, como el <em>megalodon</em>. Las similitudes entre los restos físicos
+                    y el tamaño extremo de ambos llevó a muchos científicos a creer
+                    que estos tiburones estaban estrechamente relacionados, y el nombre de Carcharodon megalodon se aplicó a
+                    este último. Sin embargo, una nueva hipótesis propone que C. megalodon
+                    y el tiburón blanco son parientes lejanos. El gran tiburón blanco también está más estrechamente
+                    relacionado con una antigua especie de tiburón, el tiburón mako,
+                    que a C. megalodon, una teoría que parece estar apoyada por el descubrimiento de un conjunto completo de
+                    mandíbulas con doscientos veintidós dientes y las cuarenta y cinco
+                    vértebras de Carcharodon hubbelli en 1988 y publicado el 14 de noviembre de 2012.</p>
+            
 
-            <p id="sharkText" style="display: none;">El gran tiburón blanco (Carcharodon carcharias) o jaquetón es una especie de pez cartilaginoso lamniforme
-                de la familia Lamnidae (escualo). Vive en las aguas cálidas y templadas de casi todos los océanos.<br>
-            <br>En 1758 Carlos Linneo dio al tiburón blanco su primer nombre científico, Squalus carcharias. Andrew Smith
-                le dio el nombre genérico Carcharodon en 1833 y en 1873 el nombre genérico fue identificado con el nombre específico de Linnaeus y el nombre
-                científico actual, Carcharodon carcharias. Carcharodon viene de las palabras griegas καρχαρίας, karcharías, que significa <strong>"agudo"</strong>
-                o <strong>"dentado"</strong> y οδους, odous, que significa <strong>"diente</strong>. El tiburón blanco pertenece a la clase Chondrichthyes. Esta
-                clase de peces representan uno de los linajes de vertebrados más antiguos, que surgieron hace más de cuatrocientos millones de años.</p>
-
-            <h3>Ascendencia</h3>
-            <p id="sharkText" style="display: none;">El gran tiburón blanco existe desde el Mioceno. Los fósiles más antiguos conocidos del tiburón blanco
-                datan de hace unos dieciséis millones de años aproximadamente.
-                Sin embargo la filogenia del gran tiburón blanco sigue siendo objeto de debate. La hipótesis original de
-                los orígenes del tiburón blanco es que comparte un ancestro
-                común con un tiburón prehistórico, como el <em>megalodon</em>. Las similitudes entre los restos físicos
-                y el tamaño extremo de ambos llevó a muchos científicos a creer
-                que estos tiburones estaban estrechamente relacionados, y el nombre de Carcharodon megalodon se aplicó a
-                este último. Sin embargo, una nueva hipótesis propone que C. megalodon
-                y el tiburón blanco son parientes lejanos. El gran tiburón blanco también está más estrechamente
-                relacionado con una antigua especie de tiburón, el tiburón mako,
-                que a C. megalodon, una teoría que parece estar apoyada por el descubrimiento de un conjunto completo de
-                mandíbulas con doscientos veintidós dientes y las cuarenta y cinco
-                vértebras de Carcharodon hubbelli en 1988 y publicado el 14 de noviembre de 2012.</p>
-
-            <img src="./images/shark2.jpg" alt="Tiburon Blanco" height="300" width="500">
+            <img class="sharkImg2" src="./images/shark2.jpg" alt="Tiburon Blanco" height="300" width="500">
 
             <h3>Caracteristicas</h3>
             <p>Los tiburones blancos se caracterizan por su cuerpo fusiforme y gran robustez. El morro es cónico, corto
@@ -88,8 +85,6 @@
                 completan el aspecto de este animal.</p>
         </div>
     </div>
-
-
     <script src="./script.js"></script>
 </body>
 <footer>

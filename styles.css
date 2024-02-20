@@ -1,26 +1,39 @@
+header {
+    background: linear-gradient(to bottom, #90a2b6);
+    color: white;
+    padding: 20px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    background: linear-gradient(to bottom, rgb(150, 173, 179), #305989);
+    background: linear-gradient(to bottom, #90a2b6, #305989, #232538);
     color: white;
 }
 
-.navbar {
-    background-color:  rgb(150, 173, 179);
+.sharkImg1 {
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.sharkImg2 {
+    float: right;
+    margin: 10px 0 0 10px;
 }
 
 .container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     color: white;
+    margin: 10px;
+    border: auto;
 }
 
 .descripcion {
     margin: 10px;
     padding: 10px;
     flex: 0 0 20%;
-    max-width: 25%;
 }
 
 .contenido {
@@ -39,14 +52,17 @@ body {
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #30373b;
+    color: white;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    align-items: center;
 }
 
 .respuesta {
@@ -56,13 +72,13 @@ body {
 }
 
 button {
-    background-color: #232538;
+    background-color: #90a2b6;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 100%;
     border: none;
     cursor: pointer;
-    width: 100%;
 }
 
 footer {
@@ -70,4 +86,15 @@ footer {
     padding: 20px;
     color: white;
     text-align: center;
+}
+
+#circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, rgb(0, 0, 0) 15%, rgb(255, 255, 255, 0) 70%);
+    pointer-events: none;
+    transition: all 0.03s ease;
+    z-index: -1; /* Make the circle appear below other elements */
 }
